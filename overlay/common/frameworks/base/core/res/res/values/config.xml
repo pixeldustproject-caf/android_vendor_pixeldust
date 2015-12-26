@@ -92,4 +92,8 @@
         <item>com.google.android.dialer</item>
         <item>com.google.android.deskclock</item>
     </string-array>
+
+    <!-- set defaults for google services -->
+    <string name="config_appsAuthorizedForSharedAccounts">;com.android.vending;com.android.settings;</string>
+    <string name="config_persistentDataPackageName">com.google.android.gms</string>
 </resources>
