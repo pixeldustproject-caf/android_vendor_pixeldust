@@ -1,4 +1,4 @@
-# Copyright (C) 2019 The Pixel Dust Project
+# Copyright (C) 2016 ParanoidAndroid Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,18 +12,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Extra Packages
-PRODUCT_PACKAGES += \
-    LiveWallpapersPicker \
-    Launcher3
+SDCLANG ?= false
+SDCLANG_FORCED ?= false
 
-# Backup Services whitelist
-PRODUCT_COPY_FILES += \
-    vendor/pixeldust/configs/permissions/backup.xml:system/etc/sysconfig/backup.xml
+SDCLANG_PATH := vendor/qcom/sdclang-3.8/linux-x86/bin
 
-# Enable SIP+VoIP on all targets
-PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
+SDCLANG_LTO_DEFS := vendor/pixeldust/sdclang/sdllvm-lto-defs.mk
 
-# include definitions for SDCLANG
-include vendor/pixeldust/sdclang/sdclang.mk
+SDCLANG_COMMON_FLAGS := -O3
