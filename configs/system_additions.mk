@@ -30,4 +30,8 @@ ifeq ($(HOST_OS),linux)
     ifneq ($(wildcard vendor/qcom/sdclang-4.0/),)
         include vendor/pixeldust/sdclang/sdclang.mk
     endif
+else
+$(warning ****************************************************************)
+$(warning * SDCLANG is not supported on non-linux hosts. Disabling...)
+$(warning ****************************************************************)
 endif
