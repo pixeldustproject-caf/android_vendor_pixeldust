@@ -86,6 +86,9 @@
     <!-- Whether or not swipe up gesture's opt-in setting is available on this device -->
     <bool name="config_swipe_up_gesture_setting_available">true</bool>
 
+    <!-- default dnd acess packages -->
+    <string name="config_defaultDndAccessPackages">com.google.android.GoogleCamera</string>
+
     <!-- non blockable notification packages -->
     <string-array name="config_nonBlockableNotificationPackages">
         <item>com.android.dialer</item>
