@@ -25,5 +25,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
 
-# include definitions for SDCLANG
-include vendor/pixeldust/sdclang/sdclang.mk
+# Include SDCLANG definitions if it is requested and available
+ifeq ($(HOST_OS),linux)
+    ifneq ($(wildcard vendor/qcom/sdclang-3.8/),)
+        include vendor/pixeldust/sdclang/sdclang.mk
+    endif
+endif
