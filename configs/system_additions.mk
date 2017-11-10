@@ -34,6 +34,16 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     PD-Fonts
 
+PRODUCT_COPY_FILES += \
+    vendor/pixeldust/fonts/GoogleSans-Regular.ttf:system/fonts/GoogleSans-Regular.ttf \
+    vendor/pixeldust/fonts/GoogleSans-Medium.ttf:system/fonts/GoogleSans-Medium.ttf \
+    vendor/pixeldust/fonts/GoogleSans-MediumItalic.ttf:system/fonts/GoogleSans-MediumItalic.ttf \
+    vendor/pixeldust/fonts/GoogleSans-Italic.ttf:system/fonts/GoogleSans-Italic.ttf \
+    vendor/pixeldust/fonts/GoogleSans-Bold.ttf:system/fonts/GoogleSans-Bold.ttf \
+    vendor/pixeldust/fonts/GoogleSans-BoldItalic.ttf:system/fonts/GoogleSans-BoldItalic.ttf
+
+ADDITIONAL_FONTS_FILE := vendor/pixeldust/fonts/google-sans.xml
+
 # Theme Packages
 PRODUCT_PACKAGES += \
     SystemDarkTheme \
