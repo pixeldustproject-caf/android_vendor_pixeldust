@@ -38,18 +38,21 @@ PRODUCT_PACKAGES += \
     ContactsThemeDark \
     DialerThemeDark \
     FilesThemeDark \
+    GBoardThemeDark \
     SystemBlackTheme \
     SettingsBlackTheme \
     SystemUIBlackTheme \
     ContactsThemeBlack \
     DialerThemeBlack \
     FilesThemeBlack \
+    GBoardThemeBlack \
     SystemChocolateTheme \
     SettingsChocolateTheme \
     SystemUIChocolateTheme \
     ContactsThemeChocolate \
     DialerThemeChocolate \
     FilesThemeChocolate \
+    GBoardThemeChocolate \
     WellbeingThemeChocolate \
     SettingsShishuNightsTheme \
     SystemUIShishuNightsTheme \
@@ -57,6 +60,7 @@ PRODUCT_PACKAGES += \
     ContactsThemeShishuNights \
     DialerThemeShishuNights \
     FilesThemeShishuNights \
+    GBoardThemeShishuNights \
     WellbeingThemeShishuNights
 
 # Overlays
