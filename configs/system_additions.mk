@@ -30,6 +30,10 @@ PRODUCT_PACKAGES += \
     OmniJaws \
     WeatherIcons
 
+# Fonts
+PRODUCT_PACKAGES += \
+    PD-Fonts
+
 # Theme Packages
 PRODUCT_PACKAGES += \
     SystemDarkTheme \
