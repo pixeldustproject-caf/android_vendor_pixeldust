@@ -14,7 +14,12 @@
 
 # Build PixelDust Walls
 PRODUCT_PACKAGES += \
-    PixelDustWallpapers
+    PixelDustWallpapers \
+    Browser
+
+# Copy hiddenapi whitelist
+PRODUCT_COPY_FILES += \
+    vendor/pixeldust/prebuilt/etc/sysconfig/pixeldust-hiddenapi-whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/pixeldust-hiddenapi-whitelist.xml
 
 # Additional goodies
 PRODUCT_PACKAGES += \
