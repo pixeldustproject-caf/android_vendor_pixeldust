@@ -24,17 +24,3 @@ PRODUCT_COPY_FILES += \
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
-
-# Include SDCLANG definitions if it is requested and available
-ifeq ($(HOST_OS),linux)
-    ifneq ($(wildcard vendor/qcom/sdclang-6.0/),)
-        include vendor/pixeldust/sdclang/sdclang.mk
-    endif
-else
-ifneq ($(sdclang_already_warned),true)
-$(warning **********************************************)
-$(warning * SDCLANG is not supported on non-linux hosts.)
-$(warning **********************************************)
-sdclang_already_warned := true
-endif
-endif
