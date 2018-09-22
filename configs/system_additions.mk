@@ -24,3 +24,19 @@ PRODUCT_COPY_FILES += \
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
+
+# Packages
+PRODUCT_PACKAGES += \
+    GBoardDarkTheme \
+    SystemUIDarkTheme \
+    SettingsDarkTheme \
+    SystemDarkTheme \
+    SettingsBlackTheme \
+    SystemUIBlackTheme \
+    SystemBlackTheme \
+    SettingsShishuTheme \
+    SystemUIShishuTheme \
+    SystemShishuTheme \
+    SettingsShishuNightsTheme \
+    SystemUIShishuNightsTheme \
+    SystemShishuNightsTheme
