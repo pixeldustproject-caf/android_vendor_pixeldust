@@ -45,9 +45,11 @@ PRODUCT_PACKAGES += \
     ContactsThemeChocolate \
     DialerThemeChocolate \
     FilesThemeChocolate \
+    WellbeingThemeChocolate \
     SettingsShishuNightsTheme \
     SystemUIShishuNightsTheme \
     SystemShishuNightsTheme \
     ContactsThemeShishuNights \
     DialerThemeShishuNights \
-    FilesThemeShishuNights
+    FilesThemeShishuNights \
+    WellbeingThemeShishuNights
