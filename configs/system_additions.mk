@@ -34,9 +34,6 @@ PRODUCT_PACKAGES += \
     SettingsBlackTheme \
     SystemUIBlackTheme \
     SystemBlackTheme \
-    SettingsShishuTheme \
-    SystemUIShishuTheme \
-    SystemShishuTheme \
     SettingsShishuNightsTheme \
     SystemUIShishuNightsTheme \
     SystemShishuNightsTheme
