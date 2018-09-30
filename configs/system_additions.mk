@@ -57,23 +57,27 @@ PRODUCT_PACKAGES += \
 # Overlays
 PRODUCT_PACKAGES += \
     AmberAccent \
-    BlackAccent \
     BlueAccent \
     BlueGreyAccent \
     BrownAccent \
     CyanAccent \
+    CandyRedAccent \
     DeepOrangeAccent \
     DeepPurpleAccent \
+    ExtendedGreenAccent \
     GreenAccent \
     GreyAccent \
     IndigoAccent \
+    JadeGreenAccent \
     LightBlueAccent \
     LightGreenAccent \
     LimeAccent \
     OrangeAccent \
+    PaleBlueAccent \
+    PaleRedAccent \
     PinkAccent \
     PurpleAccent \
     RedAccent \
     TealAccent \
-    YellowAccent \
-    WhiteAccent
+    YellowAccent
+
