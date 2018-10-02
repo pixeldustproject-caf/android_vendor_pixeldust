@@ -3,4 +3,8 @@
     <color name="condition_card_background">@*android:color/black</color>
     <color name="suggestion_condition_background">@*android:color/black</color>
     <color name="suggestion_tile_background">@*android:color/black</color>
+    <color name="search_bar_background_color">#c016161c</color>
+
+    <!-- Color for the background of the shortcut icons.-->
+    <color name="shortcut_background">@*android:color/black</color>
 </resources>
