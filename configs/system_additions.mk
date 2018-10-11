@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Extra Packages
+# Packages
 PRODUCT_PACKAGES += \
     LiveWallpapersPicker \
     Launcher3
@@ -25,7 +25,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
 
-# Packages
+# Extra Packages
+PRODUCT_PACKAGES += \
+    OmniJaws
+
+# Theme Packages
 PRODUCT_PACKAGES += \
     SystemDarkTheme \
     SettingsDarkTheme \
