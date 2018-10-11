@@ -27,7 +27,8 @@ PRODUCT_COPY_FILES += \
 
 # Extra Packages
 PRODUCT_PACKAGES += \
-    OmniJaws
+    OmniJaws \
+    WeatherIcons
 
 # Theme Packages
 PRODUCT_PACKAGES += \
