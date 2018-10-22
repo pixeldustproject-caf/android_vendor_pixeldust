@@ -50,4 +50,12 @@
     <color name="autofill_save_title_color">@android:color/black</color>
     <color name="autofill_autofill_save_custom_subtitle_color">@android:color/black</color>
 
+    <!-- QS Tiles Colors -->
+    <color name="qs_disabled">#c3c3c3</color>
+    <color name="qs_inactive">#c3c3c3</color>
+    <color name="qs_active">#000000</color>
+    <color name="qs_tile_disabled">#8c8c8c</color>
+    <color name="qs_tile_inactive">#8c8c8c</color>
+    <color name="qs_tile_active">#ffffff</color>
+
 </resources>
