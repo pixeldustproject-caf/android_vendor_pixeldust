@@ -18,8 +18,8 @@
      overlaying new theme colors. -->
 <resources>
 
-    <color name="accent_device_default_700">#ff00796b</color>
-    <color name="accent_device_default_light">#ff009688</color>
-    <color name="accent_device_default_dark">#ff80cbc4</color>
+    <color name="accent_device_default_700">#FF00BCD4</color>
+    <color name="accent_device_default_light">#FF00BCD4</color>
+    <color name="accent_device_default_dark">#FF00BCD4</color>
 
 </resources>
