@@ -30,6 +30,10 @@ PRODUCT_PACKAGES += \
     OmniJaws \
     WeatherIcons
 
+# Ambient Play
+PRODUCT_PACKAGES += \
+    AmbientPlayHistoryProvider
+
 # Fonts
 PRODUCT_PACKAGES += \
     PD-Fonts
