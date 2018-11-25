@@ -38,9 +38,6 @@ PRODUCT_PACKAGES += \
     AmbientPlayHistoryProvider
 
 # Fonts
-PRODUCT_PACKAGES += \
-    PD-Fonts
-
 PRODUCT_COPY_FILES += \
     vendor/pixeldust/fonts/GoogleSans-Regular.ttf:system/fonts/GoogleSans-Regular.ttf \
     vendor/pixeldust/fonts/GoogleSans-Medium.ttf:system/fonts/GoogleSans-Medium.ttf \
