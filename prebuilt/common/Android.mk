@@ -1,5 +1,7 @@
 LOCAL_PATH := $(call my-dir)
 
+include $(call all-makefiles-under,$(LOCAL_PATH))
+
 # a wrapper for curl which provides wget syntax, for compatibility
 include $(CLEAR_VARS)
 LOCAL_MODULE := wget

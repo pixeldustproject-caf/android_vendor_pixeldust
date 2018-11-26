@@ -15,7 +15,8 @@
 # Packages
 PRODUCT_PACKAGES += \
     LiveWallpapersPicker \
-    Launcher3
+    Launcher3 \
+    SubstratumSignature
 
 # Backup Services whitelist
 PRODUCT_COPY_FILES += \
