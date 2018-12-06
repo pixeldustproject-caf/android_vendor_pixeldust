@@ -14,6 +14,8 @@
 
 # Packages
 PRODUCT_PACKAGES += \
+    CustomDoze \
+    LiveWallpapers \
     LiveWallpapersPicker \
     Launcher3 \
     SubstratumSignature
