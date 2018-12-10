@@ -46,6 +46,7 @@ PRODUCT_PACKAGES += \
     FilesThemeDark \
     GBoardThemeDark \
     WellbeingThemeDark \
+    GoogleIntelligenceSenseDark \
     SystemBlackTheme \
     SettingsBlackTheme \
     SystemUIBlackTheme \
@@ -80,7 +81,8 @@ PRODUCT_PACKAGES += \
     GBoardThemeShishuCosmos \
     GMSThemeShishuCosmos \
     WellbeingThemeShishuCosmos \
-    GBoardThemeLight
+    GBoardThemeLight \
+    GoogleIntelligenceSenseLight
 
 # Overlays
 PRODUCT_PACKAGES += \
