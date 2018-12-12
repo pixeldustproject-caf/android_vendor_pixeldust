@@ -146,3 +146,7 @@ PRODUCT_PACKAGES += \
     QStilePokesign \
     QStileWavey
 
+# Fonts
+PRODUCT_PACKAGES += \
+    PixelDust-Fonts
+
