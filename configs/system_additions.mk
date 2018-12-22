@@ -31,11 +31,13 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     vendor/pixeldust/prebuilt/common/etc/permissions/com.android.providers.weather.xml:system/etc/permissions/com.android.providers.weather.xml \
-    vendor/pixeldust/prebuilt/common/etc/default-permissions/com.android.providers.weather.xml:system/etc/default-permissions/com.android.providers.weather.xml
+    vendor/pixeldust/prebuilt/common/etc/default-permissions/com.android.providers.weather.xml:system/etc/default-permissions/com.android.providers.weather.xml \
+    vendor/pixeldust/prebuilt/common/etc/permissions/org.pixelexperience.ambient.play.xml:system/etc/permissions/org.pixelexperience.ambient.play.xml
 
 # Ambient Play
 PRODUCT_PACKAGES += \
-    AmbientPlayHistoryProvider
+    AmbientPlayHistoryProvider \
+    AmbientPlayProvider
 
 # Theme Packages
 PRODUCT_PACKAGES += \
