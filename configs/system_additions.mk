@@ -153,7 +153,8 @@ PRODUCT_PACKAGES += \
     QStileDottedCircle \
     QStileNinja \
     QStilePokesign \
-    QStileWavey
+    QStileWavey \
+    QStileCookie
 
 # Fonts
 PRODUCT_PACKAGES += \
