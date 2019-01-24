@@ -24,4 +24,9 @@
     <color name="user_icon_4">#ffec407a</color>
     <color name="user_icon_5">#ff33ac71</color>
     <color name="user_icon_8">#ffff7043</color>
+
+    <!-- Multi-sim sim colors -->
+    <color name="Teal_700">#ff00796b</color>
+    <color name="Blue_700">#ff1976d2</color>
+
 </resources>
