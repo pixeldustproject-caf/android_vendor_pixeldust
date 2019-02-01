@@ -45,6 +45,7 @@ PRODUCT_PACKAGES += \
     DialerThemeDark \
     FilesThemeDark \
     GBoardThemeDark \
+    WellbeingThemeDark \
     SystemBlackTheme \
     SettingsBlackTheme \
     SystemUIBlackTheme \
@@ -52,6 +53,7 @@ PRODUCT_PACKAGES += \
     DialerThemeBlack \
     FilesThemeBlack \
     GBoardThemeBlack \
+    WellbeingThemeBlack \
     SystemChocolateTheme \
     SettingsChocolateTheme \
     SystemUIChocolateTheme \
