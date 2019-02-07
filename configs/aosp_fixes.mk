@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Proprietary latinime libs needed for Keyboard swyping
-ifeq ($(TARGET_ARCH),arm64)
+ifeq ($(TARGET_ARCH), $(filter $(TARGET_ARCH), arm64))
 PRODUCT_COPY_FILES += \
     vendor/pixeldust/prebuilt/common/lib64/libjni_latinime.so:system/lib64/libjni_latinime.so \
     vendor/pixeldust/prebuilt/common/lib64/libjni_latinimegoogle.so:system/lib64/libjni_latinimegoogle.so
