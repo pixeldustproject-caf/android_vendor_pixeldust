@@ -28,9 +28,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
 
-# WeatherProvider
+# WeatherClient
 PRODUCT_PACKAGES += \
-    WeatherProvider
+    WeatherClient
 
 PRODUCT_COPY_FILES += \
     vendor/pixeldust/prebuilt/common/etc/permissions/com.android.providers.weather.xml:system/etc/permissions/com.android.providers.weather.xml \
