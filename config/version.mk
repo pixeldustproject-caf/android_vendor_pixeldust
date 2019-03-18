@@ -1,4 +1,4 @@
-# Copyright (C) 2018 The Pixel Dust Project
+# Copyright (C) 2019 The Pixel Dust Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,9 +12,21 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+
+ifndef SIGN_KEY
+  SIGN_KEY := UNOFFICIAL
+endif
+
+PRODUCT_BUILD_PROP_OVERRIDES := BUILD_DISPLAY_ID=$(BUILD_VERSION)-$(SIGN_KEY)
+PRODUCT_BUILD_PROP_OVERRIDES += TARGET_BUILD_TYPE=user
+
 # Pixel Dust ROM versioning
 BUILD_VERSION := PixelDustROM-$(PLATFORM_VERSION)-$(shell date +%Y%m%d)
 
-# Pixel Dust ROM package name 
-PIXELDUST_VERSION := $(TARGET_PRODUCT)-pie-release-six-$(shell date +%Y%m%d-%H%M)
+# Pixel Dust ROM package name
+PIXELDUST_VERSION := $(TARGET_PRODUCT)-pie-release-six-$(shell date +%Y%m%d-%H%M)-$(SIGN_KEY)
 
+PRODUCT_GENERIC_PROPERTIES += \
+    com.pixeldust.fingerprint=$(BUILD_VERSION) \
+    ro.pixeldust.device=$(TARGET_DEVICE) \
+    ro.pixeldust.ota.version=$(PIXELDUST_VERSION)
