@@ -13,13 +13,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# -----------------------------------------------------------------
-# Lineage OTA update package
+PIXELDUST_TARGET_PACKAGE := $(PRODUCT_OUT)/Pixeldust-$(PIXELDUST_VERSION).zip
 
-LINEAGE_TARGET_PACKAGE := $(PRODUCT_OUT)/lineage-$(LINEAGE_VERSION).zip
-
-.PHONY: bacon
+.PHONY: bacon pixeldust
 bacon: $(INTERNAL_OTA_PACKAGE_TARGET)
-	$(hide) ln -f $(INTERNAL_OTA_PACKAGE_TARGET) $(LINEAGE_TARGET_PACKAGE)
-	$(hide) $(MD5SUM) $(LINEAGE_TARGET_PACKAGE) | sed "s|$(PRODUCT_OUT)/||" > $(LINEAGE_TARGET_PACKAGE).md5sum
-	@echo "Package Complete: $(LINEAGE_TARGET_PACKAGE)" >&2
+	$(hide) ln -f $(INTERNAL_OTA_PACKAGE_TARGET) $(PIXELDUST_TARGET_PACKAGE)
+	$(hide) $(MD5SUM) $(PIXELDUST_TARGET_PACKAGE) | sed "s|$(PRODUCT_OUT)/||" > $(PIXELDUST_TARGET_PACKAGE).md5sum
+	@echo "Package Complete: $(PIXELDUST_TARGET_PACKAGE)" >&2
