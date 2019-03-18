@@ -19,7 +19,7 @@ PRODUCT_PACKAGES += \
 
 # Backup Services whitelist
 PRODUCT_COPY_FILES += \
-    vendor/pixeldust/config/permissions/backup.xml:system/etc/sysconfig/backup.xml
+    vendor/pixeldust/configs/permissions/backup.xml:system/etc/sysconfig/backup.xml
 
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \

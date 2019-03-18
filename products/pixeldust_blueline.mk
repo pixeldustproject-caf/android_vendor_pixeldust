@@ -21,7 +21,7 @@ TARGET_SCREEN_HEIGHT := 2960
 TARGET_SCREEN_WIDTH := 1440
 
 # Include common PixelDust stuff
-include vendor/pixeldust/config/pixeldust_phone.mk
+include vendor/pixeldust/configs/pixeldust_phone.mk
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/google/crosshatch/aosp_blueline.mk)
@@ -31,7 +31,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 
 # Include optional stuff (e.g. prebuilt apps)
-include vendor/pixeldust/config/system_optional.mk
+include vendor/pixeldust/configs/system_optional.mk
 
 # Include pixel ambient sense (Now playing)
 include vendor/pixeldust/config/ambientsense.mk

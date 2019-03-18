@@ -16,7 +16,7 @@
 $(call inherit-product, device/asus/Z00L/aosp_Z00L.mk)
 
 # Include common PixelDust stuff
-include vendor/pixeldust/config/pixeldust_phone.mk
+include vendor/pixeldust/configs/pixeldust_phone.mk
 
 # Setup device specific product configuration.
 PRODUCT_NAME := pixeldust_Z00L

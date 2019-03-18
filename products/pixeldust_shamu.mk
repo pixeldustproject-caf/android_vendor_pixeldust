@@ -18,7 +18,7 @@ TARGET_SCREEN_HEIGHT := 2560
 TARGET_SCREEN_WIDTH := 1440
 
 # Inherit pixeldust vendor
-$(call inherit-product, vendor/pixeldust/config/pixeldust_phone.mk)
+$(call inherit-product, vendor/pixeldust/configs/pixeldust_phone.mk)
 
 # Inherit AOSP device configuration for shamu.
 $(call inherit-product, device/moto/shamu/aosp_shamu.mk)
@@ -31,7 +31,7 @@ $(call inherit-product, vendor/moto/shamu/device-vendor.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Include optional stuff (e.g. prebuilt apps)
-include vendor/pixeldust/config/system_optional.mk
+include vendor/pixeldust/configs/system_optional.mk
 
 # Google Apps
 $(call inherit-product, vendor/googleapps/basic-gapps.mk)

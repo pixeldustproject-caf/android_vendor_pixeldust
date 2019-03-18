@@ -21,13 +21,13 @@ TARGET_SCREEN_HEIGHT := 2880
 TARGET_SCREEN_WIDTH := 1440
 
 # Include common PixelDust stuff
-include vendor/pixeldust/config/pixeldust_phone.mk
+include vendor/pixeldust/configs/pixeldust_phone.mk
 
 # Include optional stuff (e.g. prebuilt apps)
-include vendor/pixeldust/config/system_optional.mk
+include vendor/pixeldust/configs/system_optional.mk
 
 # Include pixel ambient sense (Now playing)
-include vendor/pixeldust/config/ambientsense.mk
+include vendor/pixeldust/configs/ambientsense.mk
 
 # Google Apps
 $(call inherit-product, vendor/googleapps/googleapps.mk)
@@ -50,7 +50,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=taimen \
     BUILD_FINGERPRINT=google/taimen/taimen:9/PQ2A.190305.002/5240760:user/release-keys \
     PRIVATE_BUILD_DESC="taimen-user 9 PQ2A.190305.002 5240760 release-keys"
-	
+
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.pixeldust.maintainer="nitin1438"
 
