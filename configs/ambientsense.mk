@@ -17,4 +17,4 @@ PRODUCT_PACKAGES += \
 
 # Ambient, Google app and Sound search tile - music recognition
 PRODUCT_COPY_FILES +=  \
-    vendor/pixeldust/prebuilt/etc/ambient/matcher_tah.leveldb:system/etc/ambient/matcher_tah.leveldb
+    vendor/pixeldust/prebuilt/common/etc/ambient/matcher_tah.leveldb:system/etc/ambient/matcher_tah.leveldb
