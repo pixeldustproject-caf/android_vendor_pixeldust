@@ -29,4 +29,6 @@ PIXELDUST_VERSION := $(TARGET_PRODUCT)-pie-release-six-$(shell date +%Y%m%d-%H%M
 PRODUCT_GENERIC_PROPERTIES += \
     com.pixeldust.fingerprint=$(BUILD_VERSION) \
     ro.pixeldust.device=$(TARGET_DEVICE) \
-    ro.pixeldust.ota.version=$(PIXELDUST_VERSION)
+    ro.pixeldust.ota.version=$(PIXELDUST_VERSION) \
+    ro.pixeldust.releasetype=$(SIGN_KEY) \
+    ro.pixeldust.version=$(PIXELDUST_VERSION)

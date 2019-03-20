@@ -13,10 +13,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PIXELDUST_TARGET_PACKAGE := $(PRODUCT_OUT)/Pixeldust-$(PIXELDUST_VERSION).zip
+PIXELDUST_TARGET_PACKAGE := $(PRODUCT_OUT)/$(PIXELDUST_VERSION).zip
 
 .PHONY: bacon pixeldust
 bacon: $(INTERNAL_OTA_PACKAGE_TARGET)
 	$(hide) ln -f $(INTERNAL_OTA_PACKAGE_TARGET) $(PIXELDUST_TARGET_PACKAGE)
-	$(hide) $(MD5SUM) $(PIXELDUST_TARGET_PACKAGE) | sed "s|$(PRODUCT_OUT)/||" > $(PIXELDUST_TARGET_PACKAGE).md5sum
-	@echo "Package Complete: $(PIXELDUST_TARGET_PACKAGE)" >&2
+	$(hide) $(MD5SUM) $(PIXELDUST_TARGET_PACKAGE) > $(PIXELDUST_TARGET_PACKAGE).md5sum
+	$(hide) ./vendor/pixeldust/tools/pd.sh
